@@ -346,8 +346,12 @@ body{
                 justify-content: center;
                 align-items: center;
                 gap: 8px;
-                border-radius: 8px;
-                background: #FFF;
+                border-radius: 10px;
+                background: #FFFFF;
+                width:40px;
+                highet:auto;
+                
+                
             }
             .tooltip {
                 visibility: hidden; /* Hide the tooltip by default */
