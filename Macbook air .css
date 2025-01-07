@@ -282,7 +282,7 @@ body{
                     gap: 2px;
                     position: relative;
                     bottom: 30px;
-                    left: 180%;
+                    left: 200%;
                 }
                 .color-imageframe{
                     width: 24px;
@@ -350,8 +350,8 @@ body{
                 gap: 8px;
                 border-radius: 10px;
                 background: #FFFFF;
-              width: 24px;
-                    height: 24px;
+              width: 15px;
+                    height: 15px;
                 }
                 
             }
