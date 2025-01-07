@@ -163,7 +163,7 @@ body{
                     font-weight: 500;
                     line-height: normal;
                 }
-    .arrow-button {
+   .arrow-button {
         display: flex; 
         position: absolute;
         justify-content: center; 
@@ -186,6 +186,7 @@ body{
             position: relative;
             height: 24px;
             } 
+ 
 
 .section{
     width: 1180px ;
@@ -355,7 +356,7 @@ body{
                 }
                 
             }
-            .tooltip {
+           .tooltip {
                 visibility: hidden; /* Hide the tooltip by default */
                 width: 120px; /* Set the width of the tooltip */
                 background-color: rgba(246, 241, 241, 0.084); /* Background color */
@@ -375,3 +376,4 @@ body{
             .arrow-button:hover .tooltip {
                 visibility: visible; /* Show the tooltip on hover */
                 opacity: 1;
+            }
