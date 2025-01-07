@@ -279,10 +279,10 @@ body{
                 .color{
                     display: flex;
                     align-items: center;
-                    gap: 6px;
+                    gap: 2px;
                     position: relative;
                     bottom: 30px;
-                    left: 150%;
+                    left: 110%;
                 }
                 .color-imageframe{
                     width: 24px;
