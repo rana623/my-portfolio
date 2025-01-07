@@ -283,7 +283,7 @@ body{
                     gap: 2px;
                     position: relative;
                     bottom: 30px;
-                    left: 200%;
+                    left: 240%;
                 }
                 .color-imageframe{
                     width: 24px;
@@ -351,8 +351,10 @@ body{
                 gap: 8px;
                 border-radius: 10px;
                 background: #FFFFF;
-              width: 15px;
-                    height: 15px;
+                object-fit: contain;
+                width: 10px;
+                height: 10px;
+               
                 }
                 
             }
