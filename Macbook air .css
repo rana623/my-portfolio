@@ -163,30 +163,31 @@ body{
                     font-weight: 500;
                     line-height: normal;
                 }
-   .arrow-button {
-        display: flex; 
-        position: absolute;
-        justify-content: center; 
-        align-items: center; 
-        width: 40px; 
-        height: 40px; 
-        border-radius: 50%; 
-        bottom: 20px; 
-        left: 49%;
-        border: 1px solid #FAFAFA;
-        cursor: pointer; 
-        transition: background 0.3s, box-shadow 0.3s;
-        }
-        .arrow-button:hover {
-            background: #9a9a9a42; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /
-        }            
-        .arrow-down-icon {
-            width: 24px;
-            position: relative;
-            height: 24px;
-            } 
- 
+.arrow-button {
+    display: flex; 
+    position: absolute;
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    bottom: 20px; 
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    border: 1px solid #FAFAFA;
+    cursor: pointer; 
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.arrow-button:hover {
+    background: #9a9a9a42; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}            
+
+.arrow-down-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+} 
 
 .section{
     width: 1180px ;
@@ -351,31 +352,32 @@ body{
                 gap: 8px;
                 border-radius: 10px;
                 background: #FFFFF;
-                object-fit: contain;
-                width: 2px;
-                height: 2px;
+                width: auto;
+                height: auto;
                
                 }
-                
+                .cart img {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+}
             }
            .tooltip {
-                visibility: hidden; /* Hide the tooltip by default */
-                width: 120px; /* Set the width of the tooltip */
-                background-color: rgba(246, 241, 241, 0.084); /* Background color */
-                color: #fff; /* Text color */
-                text-align: center; /* Center the text */
-                border-radius: 5px; /* Rounded corners */
-                padding: 5px; /* Padding around the text */
-                position: absolute; /* Position it absolutely */
-                bottom: 50px; /* Position above the button */
-                left: 50%; /* Center it horizontally */
-                transform: translateX(-50%); /* Adjust for the width */
-                opacity: 0; /* Start with opacity 0 */
-                transition: opacity 0.3s; /* Smooth transition for opacity */
-                border-radius: 16px;
-            }
-            
-            .arrow-button:hover .tooltip {
-                visibility: visible; /* Show the tooltip on hover */
-                opacity: 1;
-            }
+    visibility: hidden; /* Hide the tooltip by default */
+    width: 120px; /* Set the width of the tooltip */
+    background-color: rgba(246, 241, 241, 0.084); /* Background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center the text */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding around the text */
+    position: absolute; /* Position it absolutely */
+    bottom: 50px; /* Position above the button */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for the width */
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 0.3s; /* Smooth transition for opacity */
+}
+
+.arrow-button:hover .tooltip {
+    visibility: visible; /* Show the tooltip on hover */
+    opacity: 1;
+}
