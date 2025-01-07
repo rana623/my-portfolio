@@ -291,6 +291,7 @@ body{
         .card-image{
             height: 137px;
             align-self: stretch;
+            background-size:cover;
         }
         .card-button{
             display: flex;
@@ -348,8 +349,9 @@ body{
                 gap: 8px;
                 border-radius: 10px;
                 background: #FFFFF;
-                width:40px;
-                highet:auto;
+                width:10px;
+                highet:10px;
+               background-size:cover;
                 
                 
             }
