@@ -168,8 +168,9 @@ body{
     position: absolute;
     justify-content: center; 
     align-items: center; 
-    width: 40px; 
-    height: 40px; 
+    width: 48px; 
+    height: 48px; 
+    gap:8px;
     border-radius: 50%; 
     bottom: 20px; 
     left: 50%; /* Center horizontally */
@@ -185,8 +186,8 @@ body{
 }            
 
 .arrow-down-icon {
-    width: 24px; /* Adjust size as needed */
-    height: 24px; /* Adjust size as needed */
+    width: 32px; /* Adjust size as needed */
+    height: 32px; /* Adjust size as needed */
 } 
 
 .section{
