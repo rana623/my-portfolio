@@ -351,14 +351,14 @@ body{
                 align-items: center;
                 gap: 8px;
                 border-radius: 10px;
-                background: #FFFFF;
-                width: auto;
-                height: auto;
+                background-color: #FFFFFF;
+                width: 52px;
+                height: 52px;
                
                 }
                 .cart img {
-    width: 24px; /* Set the desired width */
-    height: 24px; /* Set the desired height */
+    width: 35px; /* Set the desired width */
+    height: 35px; /* Set the desired height */
 }
             }
            .tooltip {
