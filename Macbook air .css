@@ -283,8 +283,8 @@ body{
                     position: relative;
                     bottom: 30px;
                     left: 110%;
-                     background-size:cover;
-                     background-position: center;
+                     width:10px;
+                    height:5px;
                 }
                 .color-imageframe{
                     width: 24px;
@@ -293,8 +293,8 @@ body{
         .card-image{
             height: 137px;
             align-self: stretch;
-             background-size:cover;
-    background-position: center;
+            background-size:cover;
+    
         }
         .card-button{
             display: flex;
@@ -352,8 +352,8 @@ body{
                 gap: 8px;
                 border-radius: 10px;
                 background: #FFFFF;
-                width:10px;
-                highet:10px;
+                width:5px;
+                highet:5px;
                background-size:cover;
                 
                 
